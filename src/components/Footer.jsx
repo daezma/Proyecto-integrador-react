@@ -112,7 +112,7 @@ const Footer = () => {
             <Typography variant="body2">
               Diseñado por{" "}
               <MuiLink href="#" color="inherit" underline="hover">
-                S+D
+                Damián Ezequiel Maenza
               </MuiLink>
             </Typography>
           </Box>
