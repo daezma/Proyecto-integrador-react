@@ -35,7 +35,7 @@ export const crearOrden = async ({ cliente, user, total, items, id_cliente }) =>
       },
     };
 
-    console.log("📦 Payload de orden:", JSON.stringify(data, null, 2));
+    //console.log("📦 Payload de orden:", JSON.stringify(data, null, 2));
 
     const response = await axios.post(`${API_URL}/ordenes`, data, {
       headers: {
